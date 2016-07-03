@@ -35,7 +35,7 @@
                              $timeout(function() {
                                  if(!title) {
                                      // No other view-title has reassigned title.
-                                     delete $rootScope.viewTitle;
+                                     // delete $rootScope.viewTitle;
                                  }
                              });
                          }
